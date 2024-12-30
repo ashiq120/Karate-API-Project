@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.komoda.com</groupId>
-    <artifactId>karate-template</artifactId>
+    <artifactId>Karate-API-Project</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>    
  
@@ -24,7 +24,20 @@
             <groupId>io.karatelabs</groupId>
             <artifactId>karate-debugserver</artifactId>
             <version>0.1.0</version>
-        </dependency>                                                                 
+        </dependency>   
+        <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+        <dependency>
+           <groupId>com.aventstack</groupId>
+           <artifactId>extentreports</artifactId>
+           <version>5.0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-engine</artifactId>
+            <version>5.9.3</version>
+            <scope>test</scope>
+        </dependency>
+                                                              
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-junit5</artifactId>
